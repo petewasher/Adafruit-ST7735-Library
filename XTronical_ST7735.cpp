@@ -34,7 +34,7 @@
   MIT license, all text above must be included in any redistribution
  ****************************************************/
 
-#include "Adafruit_ST7735.h"
+#include "XTronical_ST7735.h"
 #include <limits.h>
 #include "pins_arduino.h"
 #include "wiring_private.h"
