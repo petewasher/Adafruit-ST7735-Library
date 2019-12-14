@@ -52,7 +52,7 @@ as well as Adafruit raw 1.8" TFT display
 
 
 // width and height of the screen
-#define ST7735_TFTWIDTH  128
+#define ST7735_TFTWIDTH  160
 #define ST7735_TFTHEIGHT   128
 
 #define ST7735_NOP     0x00
