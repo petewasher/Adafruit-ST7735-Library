@@ -557,13 +557,13 @@ void Adafruit_ST7735::setRotation(uint8_t m) {
      writedata(MADCTL_MX | MADCTL_MY | MADCTL_BGR);
      _height = ST7735_TFTHEIGHT;
      _width  = ST7735_TFTWIDTH;      
-     rowstart = 32;
+     rowstart = 0;
      xstart = colstart;
      ystart = rowstart;
      break;
    case 1:     
      writedata(MADCTL_MY | MADCTL_MV | MADCTL_BGR);
-     rowstart = 32;
+     rowstart = 0;
      _height = ST7735_TFTHEIGHT;
      _width  = ST7735_TFTWIDTH;
      ystart = colstart;
